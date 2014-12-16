@@ -1,0 +1,61 @@
+body{
+padding-top: 2%;
+width: 80%;
+margin: auto;
+}
+
+.content{
+padding: 1em;
+margin-bottom: 2%;
+position: relative;
+height: 100%;
+}
+
+p{
+font-family: monaco;
+margin: auto;
+font-size: 2em;
+text-align: justify;
+}
+
+#footer{
+text-align:center;
+}
+
+.question{
+text-align: left;
+font-family: monaco;
+font-size: 1.25em;
+max-width: 100%;
+background-color: ;
+position: relative;
+margin: auto;
+}
+
+.answers{
+width: 35%;
+background-color: ;
+padding: 1em;
+font-family: monaco;
+font-size: 1.2em;
+margin: auto;
+
+}
+
+#qNav{
+font-size: 2em;
+position: relative;
+margin: auto;
+background-color: ;
+width: 60%;
+}
+#formButtons{
+background-color:black;
+margin-left:auto;
+max-width: 100%;
+}
+btnt{
+text-align:right;
+}
+
+

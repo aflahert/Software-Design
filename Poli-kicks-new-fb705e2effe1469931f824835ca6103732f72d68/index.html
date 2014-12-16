@@ -1,0 +1,92 @@
+<!--Registration Page of Poli-Kick Website-->
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+	
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Registration page</title>
+		<link rel="stylesheet" type="text/css" href="css/RegistrationCss.css"/>
+		<script src="Registration js.js"></script>
+	</head>
+
+	<body>
+	<body background="images/crossword.png">
+		<div id="cover">
+		
+			<!-- Popup Div Starts Here -->
+	
+			<div id="popupContact">
+				<!-- Login Form -->
+				<form action="#" id="form" method="post" name="form">
+					<img id="close" src="images/cross3.png" onclick ="div_hide()" style="width:50px;height:50px;">
+					<h2>Log In</h2>
+						<hr><br> 
+					<input id="name" name="name" placeholder="Username" type="text"><br>
+					<input id="passw" name="passw" placeholder="Password" type="password"><br><br><br>
+					<a href="javascript:%20check_empty()" id="submit">Log In</a><br><br>
+				</form>
+			</div>
+		
+			<!-- Popup Div Ends Here -->
+		</div>
+	
+	
+		<div id="pagewrap">
+
+			<div id="header">
+				<h1><a href="School1.html"style="color:#3d6980">Register Now!</a></h1>
+				<h5>Share your opinions, find like minded people and make your community a better place</h5>
+			</div>
+		
+			<div id="content"><br>
+                <a href ="index poli-kicks.html"><image src="images/logo5.png" alt="Seanod" style="width:300px;height:300px;"></image></a>
+			</div>
+	
+			<div id="middle">			
+				<tr>
+					<td>Name and Surname:</td><br>
+					<td><input type="text" name="name" size="50"></td><br><br>
+					<td>Username:</td><br>
+					<td><input type="text" name="surname" size="50">   </td><a href="" title="You will need it to log in"><img src="images/qm5.png" style="width:20px;height:20px"></a> 
+					<td><br> <br>
+					<td>Enter Email Address:</td><br>
+					<td><input type="text" name="email" size="50">   </td><a href="" title="Need to be a valid email address"><img src="images/qm5.png" style="width:20px;height:20px"></a><br> <br>
+				</tr>
+				
+				<tr>
+					<td>Enter Password: </td>
+				</tr>
+				
+				<tr><br>
+					<td><input type="password" name="pass" size="50">   </td><a href="" title="8 characters min, include some numbers to make it strong"><img src="images/qm5.png" style="width:20px;height:20px"></a><br><br>
+					<td>Re-enter Password:</td><br>
+					<td><input type="password" name="pass" size="50"></td><td><br><br>
+					<a href="javascript:%20funSubmitted()" id="submit">Sign Up</a><br>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="persistent" value="1"> Keep me logged in<input type="hidden" name="keeplog" value="0"></td> <td><br>
+					<td><a href="https://www.google.com" target="_blank" style="color:blue">Forgot your password?</a></td>
+				</tr>
+			</div>
+	
+			<div id="footer">
+				<br><h5>By clicking Sign Up, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.</h5>
+			</div>
+			<!-- page wrapper div finish here-->
+		</div>
+		
+		<div class="mover3">			
+			<!-- Buttons -->
+			<ul>
+				<li><button id="button1" onclick="div_show()">Log In</button></li> 
+				<li><button id="button2"><a href="learn.html">Learn</button></li>
+				<li><button id="button3"><a href="help.html">Help</button></li>
+				<li><button id="button4"><a href="about.html">About</button></li>
+			</ul>	
+		</div>
+	</body>
+</html>
